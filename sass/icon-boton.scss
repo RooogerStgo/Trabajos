@@ -1,0 +1,10 @@
+.botones{
+  font-weight: bold;
+}
+
+.icon{
+  @include icon(20px);
+}
+.text-logo{
+  @include textos(normal,12px,$c-gris);
+}

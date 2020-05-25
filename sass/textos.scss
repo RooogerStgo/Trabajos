@@ -1,0 +1,21 @@
+.bg-transparent{
+  background: transparent !important;
+}
+
+.texto-negrita{
+  @include textos(bold,20px,black);
+}
+
+.texto-negrita2{
+  @include textos(bold,15px,black);
+}
+
+.titulo1{
+  font-family:'Montserrat', sans-serif;
+  @include textos(normal,50px,black);
+}
+
+
+.texto{
+  color:$c-gris;
+}

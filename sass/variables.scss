@@ -1,0 +1,12 @@
+$c-gris: gray;
+$c-black: black;
+
+@mixin textos($font-weight,$font-size,$color){
+  font-weight: $font-weight;
+  font-size: $font-size;
+  color: $color;
+  }
+  
+  @mixin icon($heigth-custom){
+    height: $heigth-custom;
+  }
